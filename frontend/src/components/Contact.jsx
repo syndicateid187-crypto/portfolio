@@ -28,7 +28,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const baseUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
+      const baseUrl = "";
       const response = await fetch(`${baseUrl}/api/contact`, {
         method: "POST",
         headers: {
